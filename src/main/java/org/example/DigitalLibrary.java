@@ -11,5 +11,7 @@ public interface DigitalLibrary {
     boolean isBookAvailable(String title);
     boolean updateBookTitle(String oldTitle, String newTitle);
     boolean removeBook(String title);
+     void countBookDublications();
+
 
 }
